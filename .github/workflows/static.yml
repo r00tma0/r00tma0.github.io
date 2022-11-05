@@ -1,0 +1,182 @@
+<html>
+        <head>
+          <title>HaCkEd By./GrEaT MaO</title>
+          <link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/967458022253285520/1008324055901945916/fbi.logo.png">
+        </head>
+<body style="background-color: black;">
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+body
+{
+  background-color: #000;
+  padding: 1%;
+  color: #ccc;
+  font-family: font-family: 'Courier Prime', monospace;
+  font-size: 0.85em;
+}
+
+.console
+{
+  font-family: 'Courier Prime', monospace;
+}
+
+input[type="button"]
+{
+  cursor: pointer;
+}    
+</style>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript">
+var captionLength = 0;
+var caption = '';
+
+
+$(document).ready(function() {
+    setInterval ('cursorAnimation()', 900);
+    captionEl = $('#caption');
+    
+    $('#test-typing').click(function(){
+        testTypingEffect();
+    });
+
+    $('#test-erasing').click(function(){
+        testErasingEffect();
+    });
+    testTypingEffect();
+});
+
+function testTypingEffect() {
+    caption = "Hello? Hey Sir > This System Has Been HaCKeD By ./MAO HaCKeR -> lmfao Bye ~";
+    type();
+}
+
+function type() {
+    captionEl.html(caption.substr(0, captionLength++));
+    if(captionLength < caption.length+1) {
+        setTimeout('type()', 50);
+    } else {
+        captionLength = 0;
+        caption = '';
+    }
+}
+
+function testErasingEffect() {
+    caption = captionEl.html();
+    captionLength = caption.length;
+    if (captionLength>0) {
+        erase();
+    } else {
+        $('#caption').html("You didn't write anything to erase, but that's ok!");
+        setTimeout('testErasingEffect()', 1000);
+    }
+}
+
+function erase() {
+    captionEl.html(caption.substr(0, captionLength--));
+    if(captionLength >= 0) {
+        setTimeout('erase()', 50);
+    } else {
+        captionLength = 0;
+        caption = '';
+    }   
+}
+
+function cursorAnimation() {
+    $('#cursor').animate({
+        opacity: 0
+    }, 'fast', 'swing').animate({
+        opacity: 1
+    }, 'fast', 'swing');
+}    
+</script>
+<center>
+    <img src="https://media.discordapp.net/attachments/889385043766702100/1009088633720029264/906F95DC-DDF1-45CF-A323-AB367AEA1BE4.jpg" style="margin: auto;text-align: center;" width="250">
+    <p class="console">
+        <span>root@</span><span style="color:red;">MAO</span><span>:~# </span><span id="caption"></span><span id="cursor" style="font-size: 0.7em !important;"> â–‚</span><br><br>
+   
+  </script>
+  <style>
+    @font-face {
+        font-family: mfont;
+        src: url("font.otf") format("opentype");
+    }
+    body {
+        background-color:black;
+    }
+
+    .center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%,-50%)
+    }
+
+    h1 {
+        color:rgb(255, 0, 0);
+        text-align:center;
+        font-family: mfont;
+        letter-spacing: 5px;
+        word-spacing: 5px;
+        transition:.5s;
+        
+    }
+    h1:hover {
+        text-shadow: 2px 10px 15px #800000;
+        transition:.9s;
+    }
+
+    h2 {
+        color:rgb(255, 255, 255);
+        text-align:center;
+        font-family: mfont;
+        letter-spacing: 3px;
+        word-spacing: 5px;
+        transition:.5s;
+    }
+    h2:hover {
+        text-shadow: 10px 5px 15px #ff0000;
+        transition:.9s;
+    }
+    a {
+        color:#DarkViolet;
+        text-decoration:none;
+    }
+    
+    a:hover {
+        color:rgb(128, 0, 0);
+    }
+
+    i {
+        color:rgb(223, 0, 0);
+        margin-top:5px;
+    }
+    .center .image {
+        transition:.9sd;
+
+    }
+    .center .image:hover {
+        box-shadow: 10px 10px 100px 2px #4B0082;
+        transition:.5s;
+    }
+  
+</style>
+</head>
+
+    <div class="text">
+        <h1>|| <span style="color:FFFFFF;">HaCkEd By </span> ./GrEaT MaO ||</h1>
+        <h2>This Hack Is Saved In ur <span style="color:#FFFFFF;">Memory</span> everyday</h2>
+        <h2><span style="color:#FFFFFF;">My REGARDS </span>: Don't Try To Find Me, I Am Anonymous </h2>
+        <h2><span style="color:#8B0000;"> Don't Try To Stop Me I always find a way to Hack in again </span> </h2>
+        <lottie-player src="https://assets3.lottiefiles.com/datafiles/LjxBSmrE5Bfh8Mx/data.json" background="transparent" speed="1" style="width: 1000px; height: 1000px; position: absolute; left:38%;" loop="" autoplay=""-->
+    </h2></div>
+</div>
+<p class="style14" align="center"> <font color="#8B0000" face="courier new" size="5"> </font><marquee scrolldelay="1" scrollamount="2" direction="left" behavior="scroll" width="50%">
+    <font color="#ff0000" face="Tahoma" size="2">  sheeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeshhhhhhhhhhhhhhh .
+    </font></marquee><br></p><p align="center">
+    </p></font></span></font></font></center></div><font size="24"><font color="#8B0000" face="Impact"><font color="#8B0000">
+    </font></font></font></div><font size="24"><font color="#8B0000" face="Impact"><font color="#8B0000">
+    <canvas id="canvas"></canvas>
+
+</head>
+<body style="background-color: black;"></body>
+<body>
