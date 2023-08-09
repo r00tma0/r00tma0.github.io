@@ -1,0 +1,244 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    background: #fff;
+    background: -webkit-linear-gradient(to left, #fff); 
+	overflow-x: hidden;
+}
+header{
+width:100%;
+		padding-top:0px;
+		background: transparent;
+}
+
+body {
+    font-family: montserrat, arial, verdana;
+    background: transparent;
+	overflow-x: hidden;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  color: #666;
+  padding:0px;
+  text-align: center;
+}
+
+
+#zewform {
+    text-align: center;
+    position: relative;
+
+}
+
+#zewform fieldset {  /*Müşeteri css no id*/
+    background: white;
+    border: 0 none;
+    border-radius: 0px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 80%;
+     margin: 0 10%  70%;
+    position: relative;
+	
+}
+#zewform .zewbox {
+    background: white;
+    border: 0 none;
+    border-radius: 0px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 10%  auto;
+    position: relative;
+}
+#zewform .zewindexbox {
+    background: white;
+    border: 0 none;
+    border-radius: 0px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 6% 35px;
+    box-sizing: border-box; 
+    position: relative;
+	width: 100%;
+}
+
+
+#zewform fieldset:not(:first-of-type) {
+    display: none;
+}
+
+
+#zewform input, #zewform textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #000;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#zewform input:focus, #zewform textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #51dfff9e;
+    outline-width: 0;
+    transition: All 0.5s ease-in;
+    -webkit-transition: All 0.5s ease-in;
+    -moz-transition: All 0.5s ease-in;
+    -o-transition: All 0.5s ease-in;
+}
+
+
+#zewform .action-button {
+    width: 100px;
+    background: #000;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+#zewform .action-button:hover, #zewform .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #51dfff9e;
+}
+
+#zewform .action-button-previous {
+    width: 100px;
+    background: #000;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+#zewform .action-button-previous:hover, #zewform .action-button-previous:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #51dfff9e;
+}
+
+
+.fs-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #2C3E50;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+
+.wrong {
+ font-size: 16px;
+ font-weight: bold;
+ color:#ff0000;
+ text-align:left;
+ 
+
+	}
+	
+.fs-subtitle {
+    font-weight: normal;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+}
+.information {
+    font-weight: normal;
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    counter-reset: step;
+}
+
+#progressbar li {
+    list-style-type: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 10px;
+    width: 24.95%;
+    float: left;
+    position: relative;
+	font-weight:bold;
+    letter-spacing: 0.2px;
+}
+
+#progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 24px;
+    height: 24px;
+    line-height: 26px;
+    display: block;
+    font-size: 12px;
+    color: #fafafa;
+    background: #ccc;
+    border-radius: 25px;
+    margin: 0 auto 10px auto;
+}
+
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #ccc;
+    position: absolute;
+    left: -50%;
+    top: 9px;
+    z-index: -1; 
+}
+
+#progressbar li:first-child:after {
+    content: none;
+}
+
+#progressbar li.active:before, #progressbar li.active:after {
+    background: #000;
+    color: white;
+}
+.zewoalt{
+	font-size:13px;
+	margin-top:4px;
+color:#8e8e8e;
+	display:block;
+}
+
+ .altzewo{
+	margin-top:5px;
+	font-size:13px;
+	letter-spacing:2px;
+}
+
+
+
+
+
+
